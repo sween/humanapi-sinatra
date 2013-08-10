@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'omniauth-humanapi'
+require 'humanapi'
 
 
 HUMANAPI_APP_ID =  "ecc8336266965f503e6848f50da1c51da370be9d"
@@ -48,5 +49,9 @@ get '/auth/humanapi/callback' do
   uid    = auth[:uid]
   email  = auth[:info][:email]
   token  = auth[:credentials][:token]
-  uid
+  
+  HumanAPI::Human.token = token
+  
+  HumanAPI::Human.profile['email']
+  
 end
