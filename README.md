@@ -3,7 +3,7 @@ humanapi-sinatra
 
 Example [HumanAPI](http://www.humanapi.co/) App.
 
-This is a demonsstration for HumanAPI using [omniauth-humanapi](https://github.com/maccman/omniauth-humanapi), [humanapi](https://github.com/maccman/humanapi), [Sinatra](http://www.sinatrarb.com/), [Twitter Bootstrap](http://twitter.github.com/bootstrap/), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). 
+This is a demonstration for HumanAPI using [omniauth-humanapi](https://github.com/maccman/omniauth-humanapi), [humanapi](https://github.com/maccman/humanapi), [Sinatra](http://www.sinatrarb.com/), [Twitter Bootstrap](http://twitter.github.com/bootstrap/), and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). 
 
 You can use it as a Boiler Plate to start writing your own Awesome HumanAPI Based Apps.
 
